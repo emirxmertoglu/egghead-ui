@@ -1,1 +1,167 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, select, textarea, button, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #141618;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .logo {
+  margin-right: 40px;
+}
+
+.header .container .menu ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .menu ul li a:hover {
+  color: #fff;
+}
+
+.header .container .menu ul li a i {
+  margin-right: 10px;
+}
+
+.header .container .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.header .container .search input {
+  height: 34px;
+  width: 250px;
+  background: #21252d;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.header .container .search input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header .container .search input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header .container .search input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header .container .search input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header .container .search button {
+  background: #21252d;
+  width: 32px;
+  height: 34px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header .container .search button:hover {
+  background: #316aff;
+}
+
+.header .container .login-buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .login-buttons ul li {
+  margin-left: 15px;
+}
+
+.header .container .login-buttons ul li.join-now-btn {
+  background: #36855b;
+  border-radius: 4px;
+  padding: 0 15px;
+}
+
+.header .container .login-buttons ul li a {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header .container .login-buttons ul li a:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
