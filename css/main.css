@@ -202,6 +202,13 @@ img {
 
 .banner .container .banner-box img {
   max-width: 100%;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+}
+
+.banner .container .banner-box img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .banner .container .banner-box.banner-image {
@@ -209,12 +216,13 @@ img {
 }
 
 .banner .container .banner-box h1 {
-  font-size: 36px;
+  font-size: 48px;
   line-height: 48px;
   color: #fff;
 }
 
 .banner .container .banner-box h2 {
+  margin-top: 20px;
   font-size: 24px;
   line-height: 33px;
   color: #B0B6BE;
@@ -222,5 +230,92 @@ img {
 
 .banner .container .banner-box .btn {
   margin-top: 65px;
+  font-weight: 500;
+  -webkit-transition: 150ms all;
+  transition: 150ms all;
+}
+
+.banner .container .banner-box .btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px 0;
+}
+
+.section1 .lang {
+  width: 392px;
+  min-width: 392px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section1 .lang a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 184px;
+  height: 184px;
+  background: #fff;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 200ms all;
+  transition: 200ms all;
+}
+
+.section1 .lang a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.section1 .lang a img {
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.section1 .lang a .title {
+  color: #111;
+  font-size: 18px;
+}
+
+.section1 .inner {
+  padding-left: 160px;
+}
+
+.section1 .inner h3 {
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.section1 .inner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 28px;
 }
 /*# sourceMappingURL=main.css.map */

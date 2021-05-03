@@ -127,15 +127,65 @@ img
             width: 50%
             img
                 max-width: 100%
+                transition: 300ms all
+                &:hover
+                    transform: scale(1.05)
             &.banner-image
                 padding-left: 100px
             h1
-                font-size: 36px
+                font-size: 48px
                 line-height: 48px
                 color: #fff
             h2
+                margin-top: 20px
                 font-size: 24px
                 line-height: 33px
                 color: #B0B6BE
             .btn
                 margin-top: 65px
+                font-weight: 500
+                transition: 150ms all
+                &:hover
+                    transform: scale(1.05)
+
+// SECTION1
+.section1
+    display: flex
+    align-items: center
+    padding: 120px 0
+    .lang
+        width: 392px
+        min-width: 392px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        a
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            width: 184px
+            height: 184px
+            background: #fff
+            margin-bottom: 24px
+            border-radius: 4px
+            box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .1)
+            transition: 200ms all
+            &:hover
+                transform: scale(1.05)
+            img
+                margin-bottom: 20px
+                height: 40px
+            .title
+                color: #111
+                font-size: 18px
+    .inner
+        padding-left: 160px
+        h3
+            font-size: 36px
+            line-height: 50px
+            margin-bottom: 30px
+        p
+            font-size: 18px
+            margin-bottom: 20px
+            line-height: 28px
